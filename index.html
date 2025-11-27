@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <title>FP Selection</title>
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li id="car">Carros</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="list">
+            <div class="item active">
+                <div class="car-img">
+                    <img src="./img/1.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Único Dono
+                    </p>
+                    <h2>
+                        911 Turbo 
+                    </h2>
+                    <p class="description">
+                        O Porsche 911 Turbo é a máquina que combina engenharia alemã, tradição esportiva e tecnologia de ponta em um único corpo. Ele nasceu para ser rápido, estável e brutalmente eficiente.                    </p>
+                    <button class="information">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="car-img">
+                    <img src="./img/2.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Conversível
+                    </p>
+                    <h2>
+                        Ferrari
+                    </h2>
+                    <p class="description">
+                        A Ferrari conversível representa a união perfeita entre liberdade, velocidade e luxo italiano. É o tipo de carro feito para quem quer sentir o vento, o ronco do motor e a emoção pura de dirigir um superesportivo a céu aberto.                    </p>
+                    <button class="information">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="car-img">
+                    <img src="./img/3.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        2015
+                    </p>
+                    <h2 id="Lamborghini">
+                        Lamborghini
+                    </h2>
+                    <p class="description">
+                        A Lamborghini 2015 representa a fase em que a marca italiana misturou design agressivo, tecnologia moderna e motores ferozes. Seja o Huracán 2015 ou o Aventador 2015, ambos definiram um novo padrão de supercarro.
+                    </p>
+                    <button class="information">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><img src="./img/arrow.svg" alt="seta esquerda"></button>
+            <button id="next"><img src="./img/arrow.svg" alt="seta direita"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
